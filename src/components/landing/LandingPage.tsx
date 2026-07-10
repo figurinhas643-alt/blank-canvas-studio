@@ -936,7 +936,7 @@ export default function LandingPage() {
                         )}
                         {idx === 1 && (
                           <img
-                            src={scriptVendas.url}
+                            src={fichasEvolucaoCard.url}
                             alt={b.t}
                             loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover"
