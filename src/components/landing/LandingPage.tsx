@@ -54,6 +54,7 @@ import guiaPlanejamentoCard from "@/assets/guia-planejamento-card.png.asset.json
 import habilidadesCard from "@/assets/habilidades-card.png.asset.json";
 import scriptVendas from "@/assets/revistinhas-colorir.webp.asset.json";
 import vitalicioPdfCard from "@/assets/vitalicio-pdf-card.png.asset.json";
+import fichasEvolucaoCard from "@/assets/fichas-evolucao-card.png.asset.json";
 import heroVideoAsset from "@/assets/minivsl.mp4.asset.json";
 const heroVideo = heroVideoAsset.url;
 
@@ -935,7 +936,7 @@ export default function LandingPage() {
                         )}
                         {idx === 1 && (
                           <img
-                            src={scriptVendas.url}
+                            src={fichasEvolucaoCard.url}
                             alt={b.t}
                             loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover"
