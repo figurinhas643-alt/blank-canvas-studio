@@ -30,9 +30,9 @@ import {
   LayoutGrid,
   Music,
 } from "lucide-react";
-import depoimentoPatricia from "@/assets/depoimento-helena.webp.asset.json";
-import depoimentoCamila from "@/assets/depoimento-maria.webp.asset.json";
-import depoimentoJuliana from "@/assets/depoimento-carlos.webp.asset.json";
+import depoimentoPatricia from "@/assets/depoimento-mariana.png.asset.json";
+import depoimentoCamila from "@/assets/depoimento-carlos-wpp.png.asset.json";
+import depoimentoJuliana from "@/assets/depoimento-fernanda.png.asset.json";
 import bonusGuiaImpressao from "@/assets/bonus-guia-impressao.webp";
 import bonusEnvelopes from "@/assets/bonus-envelopes.webp";
 import bonusAlbumPdf from "@/assets/bonus-album-pdf.webp";
@@ -545,9 +545,9 @@ const beneficios = [
 ];
 
 const depoimentos = [
-  { n: "Maria Aparecida", t: "", img: depoimentoPatricia.url },
-  { n: "Roberto Silva", t: "", img: depoimentoCamila.url },
-  { n: "Ana Cristina", t: "", img: depoimentoJuliana.url },
+  { n: "Mariana Souza", t: "", img: depoimentoPatricia.url },
+  { n: "Carlos Mendes", t: "", img: depoimentoCamila.url },
+  { n: "Fernanda Lima", t: "", img: depoimentoJuliana.url },
 ];
 
 const faq = [
