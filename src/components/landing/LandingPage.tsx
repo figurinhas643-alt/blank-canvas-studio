@@ -48,6 +48,7 @@ import figurinhasEspeciais from "@/assets/figurinhas-especiais.webp";
 import videoPoster from "@/assets/niveis-dificuldade.webp.asset.json";
 import kitGuia from "@/assets/acesso-para-sempre.webp.asset.json";
 import modelosProntos from "@/assets/caca-palavras-card.webp.asset.json";
+import aulas250Card from "@/assets/aulas-250-card.png.asset.json";
 import scriptVendas from "@/assets/revistinhas-colorir.webp.asset.json";
 import heroVideoAsset from "@/assets/minivsl.mp4.asset.json";
 const heroVideo = heroVideoAsset.url;
@@ -772,7 +773,7 @@ export default function LandingPage() {
                       >
                         {i === 0 && (
                           <img
-                            src={modelosProntos.url}
+                            src={aulas250Card.url}
                             alt={c.t}
                             loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover"
