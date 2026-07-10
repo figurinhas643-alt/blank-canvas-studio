@@ -945,7 +945,7 @@ export default function LandingPage() {
                         )}
                         {idx === 2 && (
                           <img
-                            src={bonusAlbumPdf}
+                            src={diagnosticoInicialCard.url}
                             alt={b.t}
                             loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover"
