@@ -53,6 +53,7 @@ import progressaoNivelCard from "@/assets/progressao-nivel-card.png.asset.json";
 import guiaPlanejamentoCard from "@/assets/guia-planejamento-card.png.asset.json";
 import habilidadesCard from "@/assets/habilidades-card.png.asset.json";
 import scriptVendas from "@/assets/revistinhas-colorir.webp.asset.json";
+import vitalicioPdfCard from "@/assets/vitalicio-pdf-card.png.asset.json";
 import heroVideoAsset from "@/assets/minivsl.mp4.asset.json";
 const heroVideo = heroVideoAsset.url;
 
@@ -800,7 +801,7 @@ export default function LandingPage() {
                         )}
                         {i === 3 && (
                           <img
-                            src={scriptVendas.url}
+                            src={vitalicioPdfCard.url}
                             alt={c.t}
                             loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover"
