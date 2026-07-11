@@ -657,7 +657,7 @@ export default function LandingPage() {
                 fontSize: "clamp(2.8rem, 15vw, 5.8rem)",
               }}
             >
-              TENHA ACESSO A
+              TENHA ACESSO
             </span>
 
             <span
