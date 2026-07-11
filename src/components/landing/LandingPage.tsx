@@ -382,7 +382,7 @@ function CTAButton({
   className?: string;
 }) {
   const handleClick = () => {
-    if (checkout) window.open("https://pay.wiapy.com/jUJwC_9D3C", "_blank");
+    if (checkout) window.open("https://pay.wiapy.com/xfas6AZXy2IN", "_blank");
     else scrollToOffer();
   };
   const isDark = variant === "dark";
@@ -657,7 +657,7 @@ export default function LandingPage() {
                 fontSize: "clamp(2.8rem, 15vw, 5.8rem)",
               }}
             >
-              TENHA ACESSO
+              TENHA ACESSO A
             </span>
 
             <span
