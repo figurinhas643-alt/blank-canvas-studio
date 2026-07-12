@@ -56,7 +56,7 @@ import scriptVendas from "@/assets/revistinhas-colorir.webp.asset.json";
 import vitalicioPdfCard from "@/assets/vitalicio-pdf-card.png.asset.json";
 import fichasEvolucaoCard from "@/assets/fichas-evolucao-card.png.asset.json";
 import diagnosticoInicialCard from "@/assets/diagnostico-inicial-card.png.asset.json";
-import heroVideoAsset from "@/assets/minivsl.mp4.asset.json";
+import heroVideoAsset from "@/assets/minivsl-2.mp4.asset.json";
 const heroVideo = heroVideoAsset.url;
 
 function HeroVideo() {
