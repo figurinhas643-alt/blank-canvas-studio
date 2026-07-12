@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import micStickerAsset from "@/assets/sticker-mic.png.asset.json";
-import singStickerAsset from "@/assets/sticker-sing.png.asset.json";
+import micStickerAsset from "@/assets/sticker-mic.webp.asset.json";
+import singStickerAsset from "@/assets/sticker-sing.webp.asset.json";
 import {
   Accordion,
   AccordionContent,
@@ -30,9 +30,9 @@ import {
   LayoutGrid,
   Music,
 } from "lucide-react";
-import depoimentoPatricia from "@/assets/depoimento-mariana.png.asset.json";
-import depoimentoCamila from "@/assets/depoimento-carlos-wpp.png.asset.json";
-import depoimentoJuliana from "@/assets/depoimento-fernanda.png.asset.json";
+import depoimentoPatricia from "@/assets/depoimento-mariana.webp.asset.json";
+import depoimentoCamila from "@/assets/depoimento-carlos-wpp.webp.asset.json";
+import depoimentoJuliana from "@/assets/depoimento-fernanda.webp.asset.json";
 import bonusGuiaImpressao from "@/assets/bonus-guia-impressao.webp";
 import bonusEnvelopes from "@/assets/bonus-envelopes.webp";
 import bonusAlbumPdf from "@/assets/bonus-album-pdf.webp";
@@ -48,14 +48,14 @@ import figurinhasEspeciais from "@/assets/figurinhas-especiais.webp";
 import videoPoster from "@/assets/niveis-dificuldade.webp.asset.json";
 import kitGuia from "@/assets/acesso-para-sempre.webp.asset.json";
 import modelosProntos from "@/assets/caca-palavras-card.webp.asset.json";
-import aulas250Card from "@/assets/aulas-250-card.png.asset.json";
-import progressaoNivelCard from "@/assets/progressao-nivel-card.png.asset.json";
-import guiaPlanejamentoCard from "@/assets/guia-planejamento-card.png.asset.json";
-import habilidadesCard from "@/assets/habilidades-card.png.asset.json";
+import aulas250Card from "@/assets/aulas-250-card.webp.asset.json";
+import progressaoNivelCard from "@/assets/progressao-nivel-card.webp.asset.json";
+import guiaPlanejamentoCard from "@/assets/guia-planejamento-card.webp.asset.json";
+import habilidadesCard from "@/assets/habilidades-card.webp.asset.json";
 import scriptVendas from "@/assets/revistinhas-colorir.webp.asset.json";
-import vitalicioPdfCard from "@/assets/vitalicio-pdf-card.png.asset.json";
-import fichasEvolucaoCard from "@/assets/fichas-evolucao-card.png.asset.json";
-import diagnosticoInicialCard from "@/assets/diagnostico-inicial-card.png.asset.json";
+import vitalicioPdfCard from "@/assets/vitalicio-pdf-card.webp.asset.json";
+import fichasEvolucaoCard from "@/assets/fichas-evolucao-card.webp.asset.json";
+import diagnosticoInicialCard from "@/assets/diagnostico-inicial-card.webp.asset.json";
 import heroVideoAsset from "@/assets/minivsl-2.mp4.asset.json";
 const heroVideo = heroVideoAsset.url;
 
